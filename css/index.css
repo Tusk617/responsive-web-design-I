@@ -15,7 +15,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid black;
+	border: 1px solid gray;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -28,7 +28,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	width: 970px;
-	margin: 1% 25%;
+    margin: 0% 25%;
+    padding-right: 75px;
 }
 /*ol, ul {
 	list-style: none;*/
@@ -199,6 +200,7 @@ footer img {
 
 
     header {
+        width: 100%;
         height: 50vh;
         display: flex;
         flex-direction: column-reverse;
@@ -212,12 +214,18 @@ footer img {
 
     header nav a {
         font-size: 20px;
+        margin: 1% 0;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        
     }
 
     header .logo {
-        width: 25%;
+        display: flex;
+        width: 30%;
         margin-left: 35%;
-        justify-content: center;
+        justify-content: flex-end;
+        
     }
 
     /*middle section*/
@@ -239,10 +247,29 @@ footer img {
     }
 
     #index-button {
-        margin: 0;
+        margin: 0 0 75px 0;
         display: flex;
         justify-content: center;
     }
+
+    /*bottom section*/
+
+    .one {
+        flex-wrap: wrap;
+    }
+    
+    .one-about {
+        margin-top: 2%;
+    }
+
+    .two {
+        flex-wrap: wrap;
+    }
+
+    .two-services {
+        margin-top: 2%;
+    }
+
 
     
     
