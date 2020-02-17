@@ -15,7 +15,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid gray;
+	border: 
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -198,6 +198,10 @@ footer img {
 
 @media (max-width: 500px) {
 
+    body {
+        height: 50px;
+    }
+
 
     header {
         width: 100%;
@@ -270,12 +274,64 @@ footer img {
         margin-top: 2%;
     }
 
+}
 
-    
-    
+@media (max-width: 800px) {
 
+    body {
+        height: 300px;
+    }
+
+    /*Header*/
+
+    header {
+        flex-direction: column-reverse;
+    }
+
+    header .logo {
+        width: 30%;
+        margin-left: 35%;
+        padding-bottom: 5%;
+        padding-top: 3%;
+    }
+
+    header nav a {
+        font-size: 20px;
+    }
+
+    /*middle section*/
+
+    .circle-snippet {
+        display: none;
+    }
+
+    .getStarted {
+        justify-content: center;
+    }
+
+    .container {
+        margin: 5% 0;
+    }
+
+    /*bottom section*/
+
+    .one-features p {
+        width: 95%;
+    }
+
+    .one-about p {
+        width: 95%;
+    }
+
+    .middle-img {
+        width: 100%;
+        margin: 0 
+    }
+
+    .two-services p {
+        width: 80%;
+    }
 
 
 
 }
-
