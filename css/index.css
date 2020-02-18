@@ -27,9 +27,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	width: 970px;
-    margin: 0% 25%;
-    padding-right: 75px;
+	max-width: 970px;
+    margin: 0% auto;
+    padding-right: 0;
 }
 /*ol, ul {
 	list-style: none;*/
@@ -199,7 +199,7 @@ footer img {
 @media (max-width: 500px) {
 
     body {
-        height: 50px;
+        height: 0;
     }
 
 
